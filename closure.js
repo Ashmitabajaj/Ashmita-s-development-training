@@ -1,17 +1,17 @@
 function returnfunc() {
-  const x = function () {
-    let a = 1;
-    console.log(a);
-    const y = function () {
+    const x = function () {
+      let a = 1;
       console.log(a);
-      const z = function () {
+      const y = function () {
         console.log(a);
+        const z = function () {
+          console.log(a);
+        };
+        z();
       };
-      z();
+      a = 3;
+      y();
     };
-    a = 3;
-    y();
-  };
-  x();
-}
-returnfunc();
+    x();
+  }
+  returnfunc();
