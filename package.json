@@ -1,0 +1,34 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Creating an angular app using the correct file structure where each component is nearly like a mini app its self whilst making correct usage of Directives services and factories. To avoid using jQuery in the app but still keep the awesome look and feel of bootstrap bootstrap-ui was used. this is a whole bootstrap library with JavaScript components written in angular.",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server ./ -a localhost -p 3000 -c-1 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@uirouter/angularjs": "^1.0.29",
+    "angular": "^1.8.2",
+    "angular-ui-bootstrap": "^2.5.6",
+    "bootstrap": "^5.0.1",
+    "socket.io": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashmita-Bajaj/Training.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ashmita-Bajaj/Training/issues"
+  },
+  "homepage": "https://github.com/Ashmita-Bajaj/Training#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}

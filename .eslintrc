@@ -1,0 +1,64 @@
+{
+    "env": {
+      "browser": true,
+      "jquery": true,
+      "mocha": true,
+      "node": true
+    },
+    "globals": {
+      "angular": true,
+      "_": true,
+      "bard": true,
+      "inject": true,
+      "expect": true,
+      "$rootScope": true,
+      "module": true,
+      "$templateCache": true,
+      "zxcvbn": true,
+      "io": true,
+      "tinymce": true,
+      "alasql": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2015,
+      "sourceType": "script",
+      "ecmaFeatures": {
+        "modules": false
+      }
+    },
+    "extends": [
+      "plugin:angular/johnpapa",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "array-bracket-spacing": [
+        "error",
+        "never"
+      ],
+      "angular/file-name": 0,
+      "angular/no-run-logic": 0,
+      "angular/function-type": 0,
+      "angular/controller-name": [
+        "error",
+        "/[A-Z].*Ctrl/"
+      ],
+      "no-else-return": "error",
+      "keyword-spacing": "error"
+    }
+  }
+  
