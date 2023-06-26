@@ -1,0 +1,575 @@
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+/*!
+
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+
+ * Code licensed under the Apache License v2.0.
+
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+ */
+
+.header-image {
+  display: block;
+
+  width: 100%;
+
+  text-align: center;
+
+  background: url("../img/homeBanner.png") no-repeat center center scroll;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  background-size: cover;
+
+  -o-background-size: cover;
+}
+
+.headline {
+  padding: 120px 0;
+}
+
+.headline h1 {
+  font-size: 130px;
+
+  color: black;
+
+  background: rgba(163, 163, 163, 0.7);
+}
+
+.headline h2 {
+  font-size: 77px;
+
+  color: black;
+
+  background: rgba(163, 163, 163, 0.7);
+}
+
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.featurette {
+  overflow: hidden;
+}
+
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+@media (max-width: 1200px) {
+  .headline h1 {
+    font-size: 140px;
+  }
+
+  .headline h2 {
+    font-size: 63px;
+  }
+
+  .featurette-divider {
+    margin: 50px 0;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 20px;
+  }
+
+  .featurette-image.pull-right {
+    margin-left: 20px;
+  }
+
+  .featurette-heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .headline h1 {
+    font-size: 105px;
+  }
+
+  .headline h2 {
+    font-size: 50px;
+  }
+
+  .featurette-divider {
+    margin: 40px 0;
+  }
+
+  .featurette-image {
+    max-width: 50%;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 10px;
+  }
+
+  .featurette-image.pull-right {
+    margin-left: 10px;
+  }
+
+  .featurette-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 15px;
+  }
+
+  .featurette-divider {
+    margin: 40px 0;
+  }
+
+  .featurette-heading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 668px) {
+  .headline h1 {
+    font-size: 70px;
+  }
+
+  .headline h2 {
+    font-size: 32px;
+  }
+
+  .featurette-divider {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .headline {
+    padding: 75px 0 25px 0;
+  }
+
+  .headline h1 {
+    font-size: 60px;
+  }
+
+  .headline h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .featurette-divider {
+    margin: 10px 0;
+  }
+
+  .featurette-image {
+    max-width: 100%;
+  }
+
+  .featurette-image.pull-left {
+    margin-right: 0;
+
+    margin-bottom: 10px;
+  }
+
+  .featurette-image.pull-right {
+    margin-bottom: 10px;
+
+    margin-left: 0;
+  }
+}
+
+/*!
+
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+
+ * Code licensed under the Apache License v2.0.
+
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+ */
+
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+}
+
+.img-portfolio {
+  margin-bottom: 30px;
+}
+
+.img-hover:hover {
+  opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+  height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+  height: 100%;
+}
+
+header.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+  font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.price sup {
+  top: -20px;
+  left: 2px;
+  font-size: 20px;
+}
+
+.period {
+  display: block;
+  font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+  margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+  .customer-img,
+  .img-related {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
+
+  header.carousel .carousel {
+    height: 70%;
+  }
+}
+
+.login-or {
+  position: relative;
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+}
+
+.hr-or {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+h3 {
+  text-align: center;
+  line-height: 300%;
+}
+
+body {
+  color: black;
+  background-color: white;
+}
+
+.inp1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.inp2,
+.inp3 {
+  border-style: solid;
+  border-color: black;
+}
+
+.inps {
+  border-style: solid;
+  border-color: aliceblue;
+}
+
+.inp {
+  border-style: solid;
+  border-color: lavender;
+}
+
+/* 
+.select {
+    border-style: solid;
+    border-color: lavender;
+} */
+
+.inp4 {
+  border-style: solid;
+  border-color: black;
+}
+
+.inp5 {
+  border-style: solid;
+  border-color: black;
+}
+
+.row,
+.well {
+  background-color: #fbfbfb;
+}
+
+.one {
+  border-color: black;
+  border-style: solid;
+}
+
+.two {
+  border-color: black;
+  border-style: solid;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-group {
+  background-color: white;
+  color: black;
+}
+
+.form-control {
+  border: solid;
+  border-color: black;
+}
+
+.tabclass {
+  background-color: grey;
+}
+
+/* .text-black-50:hover{
+    background-color: #fbfbfb;
+} */
+
+.well-hover:hover {
+  background-color: rgb(230, 246, 251);
+}
+
+.modal-body {
+  display: inline-block;
+  padding: 9px;
+}
+
+/* select.ng-pristine.ng-untouched.ng-valid.ng-scope {
+    width: 350px;
+    height: 44px;
+} */
+
+input,
+textarea {
+  color: #464545;
+  height: 44px;
+  width: 350px;
+  margin-top: 5.5px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid rgb(156, 131, 131);
+}
+
+.col-sm-3.col-md-3.col-lg-3 {
+  text-align: center;
+}
+
+#three,
+#two,
+#first {
+  border: solid lightgray;
+}
+
+#sectionOneA {
+  width: 600px;
+  margin-left: 18px;
+  margin-top: 13px;
+  background-color: whitesmoke;
+  padding-left: 8px;
+}
+#sectionOneB {
+  width: 200px;
+  height: 48px;
+  margin-top: 13px;
+}
+
+#c {
+  border-style: solid;
+  border-color: #aaa;
+  width: 270px;
+}
+
+.emailtemplate {
+  width: 150%;
+}
+
+.modal-header {
+  margin-top: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #464545;
+  min-height: 16.42857143px;
+}
+
+#labelcenter2 {
+  margin-left: 400px;
+  color: #aaa;
+}
+
+.good {
+  min-height: 20px;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+#labelcenter {
+  margin-left: 50px;
+  color: #aaa;
+}
+
+#d {
+  width: 900px;
+}
+
+#jd {
+  border: solid;
+  border-color: #aaa;
+}
+#modal-body {
+  display: inline;
+}
+
+/* #e4,#e5,#e6,#f4,#f5,#f6,#g4,#g5,#g6,#h4,#h5,#h6,#i5,#i4,#i6,#j4,#j5,#j6,#k4,#k5,#k6,#l4,#l5,#l6{
+    width: 350px;
+    border: solid grey;
+    background-color: whitesmoke;
+    height: 35px;
+} */
+.basics {
+  margin: 10px;
+  color: #aaa;
+}
+label#lbl {
+  color: grey;
+}
+
+#e1 {
+  border: solid;
+  border-color: #aaa;
+  height: 35px;
+  width: 350px;
+}
+.well {
+  background-color: whitesmoke;
+  border-style: solid;
+  border-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.nav,
+.navbar-inverse {
+  background-color: grey;
+  border-color: transparent;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: white;
+  background-color: #222222;
+  border: 1px solid #464545;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: white;
+  background-color: grey;
+  border: 1px solid #464545;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: lightgray;
+  color: #000;
+}
+
+.row,
+.well {
+  background-color: #fbfbfb;
+  margin: 1px;
+}
+.form-group {
+  color: black;
+}
+
+#d {
+  width: 850px;
+}

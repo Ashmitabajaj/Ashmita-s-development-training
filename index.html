@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
+  <head>
+    <title>My Web App</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="app/assets/css/bootstarp.css"
+    />
 
-<head>
-	<title>My Web App</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- Angular links -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
-	<script type="text/javascript"
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
-	<script type="text/javascript"
-		src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
-	<!-- angularBootstrap link -->
-	<script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="app/assets/css/style.css" />
 
-</head>
+    <!-- Angular links -->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"
+    ></script>
+    <!-- angularBootstrap link -->
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+  </head>
 
-<body>
-	<!-- Navigation Bar-->
-	<nav-dir></nav-dir>
+  <body>
+    <!-- Navigation Bar-->
+    <nav-dir></nav-dir>
 
-	<!-- Angular Templates called here -->
-	<div ui-view></div>
+    <!-- Angular Templates called here -->
+    <div ui-view></div>
 
-	<div class="container">
-		<!-- Footer -->
-		<footer>
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Copyright &copy; Your Website 2015</p>
-					<p><a ui-sref="Login">Admin Login</a></p>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<!-- /.container -->
+    <div class="container">
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Your Website 2015</p>
+            <p><a ui-sref="Login">Admin Login</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- /.container -->
 
-	<!-- Angular Modules -->
-	<script type="text/javascript" src="app/app.module.js"></script>
-	<script type="text/javascript" src="app/app.routes.js"></script>
-	<script type="text/javascript" src="app/components/home/homeCtrl.js"></script>
-	<script type="text/javascript" src="app/components/home/homeService.js"></script>
-	<script type="text/javascript" src="app/shared/navigation-bar/navbarDirective.js"></script>
-	<script type="text/javascript" src="app/shared/navigation-bar/navbarService.js"></script>
-	<script type="text/javascript" src="app/components/login/loginCtrl.js"></script>
-	<script type="text/javascript" src="app/components/login/loginService.js"></script>
-	<script type="text/javascript" src="app/components/quick-reachout/quickReachoutCtrl.js"></script>
-	<script type="text/javascript" src="app/components/quick-reachout/quicReachoutService.js"></script>
-	<script type="text/javascript" src="app/components/candidate360/candidate360Service.js"></script>
-	<script type="text/javascript" src="app/components/candidate360/candidate360Ctrl.js"></script>
-	<script type="text/javascript" src="app/components/autopilot/autopilotService.js"></script>
-	<script type="text/javascript" src="app/components/autopilot/autopilotCtrl.js"></script>
-	<script type="text/javascript" src="app/components/quick-reachout/candidate-source/candidate-source.controller.js"></script>
-    <script src="app/components/autopilot/section-two/section-two.component.js"></script>
-	<script src="app/components/quick-reachout/qrsection-one/qrsectionone.component.js"></script>
-	<script src="app/components/quick-reachout/qrsection-two/qrsectiontwo.component.js"></script>
-	<script src="app/components/quick-reachout/qrsectionthree/qrsectionthree.component.js"></script>
-	<script src="app/components/quick-reachout/qrsectionfour/qrsectionfour.component.js"></script>
-	<script src="app/components/quick-reachout/previewjd/previewjd.controller.js"></script>
-	<script src="app/components/candidate360/basicdetails/basicdetails.compnent.js"></script>
-	<script src="app/components/candidate360/emaildetails/emaildetails.component.js"></script>
-	<script src="app/components/candidate360/pipelinedetails/pipeline.component.js"></script>
-	<script src="app/components/candidate360/searchbar/searchbar.component.js"></script>
-	<script src="app/components/candidate360/exclusiondetails/exclusiondetails.component.js"></script>
-	<script src="app/components/candidate360/addnotes/addnotes.component.js"></script>
-	<script src="app/components/candidate360/callhistory/callhistory.component.js"></script>
-	<script src="app/components/candidate360/previousnotes/previousnotes.component.js"></script>
-	<script src="app/components/autopilot/previewjd2/previewjd2.component.js"></script>
-	<script src="app/components/autopilot/section-three/sectionthree.controller.js"></script>
+    <!-- Angular Modules -->
+    <script type="text/javascript" src="app.module.js"></script>
+    <script type="text/javascript" src="app.routes.js"></script>
+    <script
+      type="text/javascript"
+      src="app/shared/navigation-bar/navbarDirective.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="app/shared/navigation-bar/navbarService.js"
+    ></script>
 
-</body>
-
+    <script
+      type="text/javascript"
+      src="app/components/autopilot/autopilotService.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="app/components/autopilot/autopilotCtrl.js"
+    ></script>
+  </body>
 </html>
